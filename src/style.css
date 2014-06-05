@@ -1,0 +1,40 @@
+canvas#canvas_board{
+  width  : 480px ;
+  height : 480px ;
+}
+canvas#canvas_clone, canvas#canvas_prison{
+  width  : 100px ;
+  height : 100px ;
+}
+canvas{
+  border : 2px solid black ;
+  margin : auto ;
+}
+div.tab{
+  display : table ;
+  width : 100% ;
+}
+div.tabRow{
+  display : table-row ;
+}
+div.tabCell{
+  display : table-cell ;
+  vertical-align : top ;
+}
+th{
+  width : 150px ;
+}
+td{
+  wifth : 50px ;
+}
+input.input_number{
+  width : 50px ;
+}
+canvas.active_palette{
+  opacity : 1.0 ;
+  border : 2px solid black ;
+}
+canvas.inactive_palette{
+  opacity : 0.5 ;
+  border : 2px solid gray ;
+}
