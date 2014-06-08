@@ -373,7 +373,7 @@ function cell_object(a,b){
     context.fillStyle = ( (this.a+this.b)%2==0 || this.has_clone==true) ? get_color('text_light') : get_color('text_dark') ; 
     context.fillText('1', this.x+0.5*this.sw,this.y+(0.5-text_dy_factor)*this.sh) ;
     var line = '_' ;
-    for(var i=0 ; i<Math.log10(this.inverse_weight) ; i++){ line = line + '_' ; }
+    for(var i=0 ; i<Math.log(this.inverse_weight)/Math.log(10) ; i++){ line = line + '_' ; }
     context.fillText(line               , this.x+0.5*this.sw,this.y+(0.5-0.8*text_dy_factor)*this.sh) ;
     context.fillText(this.inverse_weight, this.x+0.5*this.sw,this.y+(0.5+    text_dy_factor)*this.sh) ;
   }

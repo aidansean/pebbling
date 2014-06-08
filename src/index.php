@@ -1,6 +1,6 @@
 <?php
 $title = 'Pebbling a Chessboard' ;
-$tagline = 'Thanks to Numberphile!'
+$tagline = 'Thanks to Numberphile!' ;
 $stylesheets = array('style.css') ;
 $js_scripts  = array('functions.js') ;
 include($_SERVER['FILE_PREFIX'] . '/_core/preamble.php') ;
